@@ -1,0 +1,48 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("https://i.loli.net/2021/06/13/DkdTrlQRNs9pWuv.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+    -moz-background-size: cover;    /* 针对Firefox浏览器 */
+    -o-background-size: cover;      /* 针对Operallq */
+    background-size: cover;         /* 通用 */
+}
+.top-nav-collapse {
+    background-color: #d697ce;
+  }
+.text-color{
+    background-color: #db82ccc5;
+
+}
+.box_con{
+    border:2px solid #cf54d348; overflow:hidden;width:1125px;margin:10px auto;
+}
+.cblack {
+    background: rgba(235, 210, 223, 0.568);
+  }
+
+#info{	padding:10px;margin:10px;font-size:15px;}
+#info h1{font-family:黑体;font-size:28px;font-weight:700;overflow:hidden;margin:auto;padding:1px;}
+#info p{height:25px;line-height:25px;padding-top:2px;width:350px;margin:auto;overflow:hidden;float:left;}
+
+#listtj{width:960px;  padding:5px; float:left;}
+#listtj a {margin: 0px 5px;}
+#list{padding:2px;}
+#list dl{float:left;overflow:hidden;padding-bottom:1px;margin:auto;}
+#list dt
+{background:none repeat scroll 0 0 #db82ccc5;
+    display:inline;float:left;font-size:14px;line-height:28px;
+    overflow:hidden;text-align:center;vertical-align:middle;width:100%;
+    margin:auto auto 5px;padding:5px 10px;}
+#list dd{border-bottom:1px dashed #CCC;display:inline;float:left;height:25px;line-height:200%;margin-bottom:5px;overflow:hidden;text-align:left;text-indent:10px;vertical-align:middle;width:33%;}
+#list dd a:link{color:#444;}
+.main-content table {
+    clear: both;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
